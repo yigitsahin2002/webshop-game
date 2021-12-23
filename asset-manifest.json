@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/webshop-game-front-end-yigitsahin2002/static/css/main.5ff499dd.chunk.css",
-    "main.js": "/webshop-game-front-end-yigitsahin2002/static/js/main.85113428.chunk.js",
-    "main.js.map": "/webshop-game-front-end-yigitsahin2002/static/js/main.85113428.chunk.js.map",
+    "main.js": "/webshop-game-front-end-yigitsahin2002/static/js/main.7a40168c.chunk.js",
+    "main.js.map": "/webshop-game-front-end-yigitsahin2002/static/js/main.7a40168c.chunk.js.map",
     "runtime-main.js": "/webshop-game-front-end-yigitsahin2002/static/js/runtime-main.25412d6b.js",
     "runtime-main.js.map": "/webshop-game-front-end-yigitsahin2002/static/js/runtime-main.25412d6b.js.map",
     "static/js/2.200db40c.chunk.js": "/webshop-game-front-end-yigitsahin2002/static/js/2.200db40c.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.25412d6b.js",
     "static/js/2.200db40c.chunk.js",
     "static/css/main.5ff499dd.chunk.css",
-    "static/js/main.85113428.chunk.js"
+    "static/js/main.7a40168c.chunk.js"
   ]
 }
