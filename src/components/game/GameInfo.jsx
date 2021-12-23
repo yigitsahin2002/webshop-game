@@ -176,7 +176,7 @@ export default function GameInfo({games}) {
     const handleImgError = useCallback(() => {
       const image = document.getElementById(`${game?.id}`);
       image.error = null;
-      image.src = "/placeholder.png";
+      image.src = "/webshop-game/placeholder.png";
     }, [game?.id])
 
     const onSubmit = useCallback(
@@ -211,7 +211,7 @@ export default function GameInfo({games}) {
       <Box className={classes["img-and-order"]} component="div">
         <Box className={classes['img-container']} component="div">
           <Box className={classes["img-div"]} component="div">
-            <img id={game.id} className={classes.img} src={game.imageUri? game.imageUri : "/placeholder.png"} alt={game.id} onError={handleImgError} />
+            <img id={game.id} className={classes.img} src={game.imageUri? game.imageUri : "/webshop-game/placeholder.png"} alt={game.id} onError={handleImgError} />
           </Box>
         </Box>
         <Box className={classes['order-div']} component="div">

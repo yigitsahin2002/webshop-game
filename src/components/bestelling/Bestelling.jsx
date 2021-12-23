@@ -104,7 +104,7 @@ export default function Bestelling({id, datum, aantal, user, game : bestellingGa
     const handleImgError = useCallback(() => {
       const image = document.getElementById(`${game.id}`);
       image.error = null;
-      image.src = "/placeholder.png";
+      image.src = "/webshop-game/placeholder.png";
     }, [game.id])
 
     const handleDelete = useCallback(async () => {

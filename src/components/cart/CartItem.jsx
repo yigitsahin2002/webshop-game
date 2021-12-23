@@ -174,7 +174,7 @@ export default function CartItem({id, aantal}) {
         {game &&
             <Box className={classes.item}>
                 <Box className={classes.imgContainer}>
-                  <img style={{maxHeight : "300px", maxWidth : "225px", width : "100%"}} src={game.imageUri? game.imageUri : "/placeholder.png"} alt={game.id} />
+                  <img style={{maxHeight : "300px", maxWidth : "225px", width : "100%"}} src={game.imageUri? game.imageUri : "/webshop-game/placeholder.png"} alt={game.id} />
                 </Box>
                 <Box className={classes.itemInfo}>
                   <Box className={classes.itemInfoTop}>

@@ -144,7 +144,7 @@ export default function Game({game, editMode}) {
     const handleImgError = useCallback(() => {
       const image = document.getElementById(`${game.id}`);
       image.error = null;
-      image.src = "/placeholder.png";
+      image.src = "/webshop-game/placeholder.png";
     }, [game.id])
 
     const handleLoad = useCallback(() => {
@@ -158,7 +158,7 @@ export default function Game({game, editMode}) {
             <Card className={classes.card}>
               <div className={classes["div-div-img"]}>
                 <div>
-                <img id={game.id} src={game.imageUri? game.imageUri : "/placeholder.png"} alt="img" onError={handleImgError} onLoad={handleLoad}/>
+                <img id={game.id} src={game.imageUri? game.imageUri : "/webshop-game/placeholder.png"} alt="img" onError={handleImgError} onLoad={handleLoad}/>
                 </div>
               </div>
               <div className={classes.content}>
@@ -199,7 +199,7 @@ export default function Game({game, editMode}) {
               <Card className={classes.card}>
                 <div className={classes["div-div-img"]}>
                   <div>
-                    <img id={game.id} src={game.imageUri? game.imageUri : "/placeholder.png"} alt="img" onError={handleImgError} onLoad={handleLoad}/>
+                    <img id={game.id} src={game.imageUri? game.imageUri : "/webshop-game/placeholder.png"} alt="img" onError={handleImgError} onLoad={handleLoad}/>
                   </div>
                 </div>
                 <div className={classes.content}>
