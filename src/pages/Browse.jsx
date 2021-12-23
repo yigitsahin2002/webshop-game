@@ -78,7 +78,7 @@ export default function Browse() {
         <nav aria-label="main mailbox folders">
           <List>
             <ListItem disablePadding>
-              <Link to="/browse/games" style={{color :"black", textDecoration: "none", width : "100%"}}>
+              <Link to="/webshop-game/browse/games" style={{color :"black", textDecoration: "none", width : "100%"}}>
                   <ListItemButton className={`${classes.button}`}>
                     <ListItemIcon /* sx={{color : "#16abcc"}}  */className={`${classes.icon} ${classes["icon-game"]}`}>
                       <VideogameAssetIcon />
@@ -92,7 +92,7 @@ export default function Browse() {
               <>
                 <Divider sx={{ width : '100%'}}/>
                 <ListItem disablePadding >
-                <Link to="/browse/categorieen" style={{color :"black", textDecoration: "none", width : "100%"}}>
+                <Link to="/webshop-game/browse/categorieen" style={{color :"black", textDecoration: "none", width : "100%"}}>
                       <ListItemButton className={`${classes.button}`}>
                         <ListItemIcon /* sx={{color : "#ff7b00"}} */ className={`${classes.icon} ${classes["icon-categorie"]}`}>
                           <CategoryIcon />
@@ -103,7 +103,7 @@ export default function Browse() {
                 </ListItem>
                 <Divider sx={{ width : '100%'}}/>
                 <ListItem disablePadding >
-                    <Link to="/browse/publishers" style={{color :"black", textDecoration: "none", width : "100%"}}>
+                    <Link to="/webshop-game/browse/publishers" style={{color :"black", textDecoration: "none", width : "100%"}}>
                       <ListItemButton className={`${classes.button}`}>
                         <ListItemIcon /* sx={{color : "#0400ff"}} */ className={`${classes.icon} ${classes["icon-publisher"]}`}>
                           <PersonIcon />
@@ -114,7 +114,7 @@ export default function Browse() {
                 </ListItem>
                 <Divider sx={{ width : '100%'}}/>
                 <ListItem disablePadding>
-                <Link to="/browse/platforms" style={{color :"black", textDecoration: "none", width : "100%"}}>
+                <Link to="/webshop-game/browse/platforms" style={{color :"black", textDecoration: "none", width : "100%"}}>
                       <ListItemButton className={`${classes.button}`}>
                         <ListItemIcon /* sx={{color : "#f2072b"}} */ className={`${classes.icon} ${classes["icon-platforms"]}`}>
                           <GamesIcon />
@@ -125,7 +125,7 @@ export default function Browse() {
                 </ListItem>
                 <Divider sx={{ width : '100%'}}/>
                 <ListItem disablePadding>
-                <Link to="/browse/talen" style={{color :"black", textDecoration: "none", width : "100%"}}>
+                <Link to="/webshop-game/browse/talen" style={{color :"black", textDecoration: "none", width : "100%"}}>
                       <ListItemButton className={`${classes.button}`}>
                         <ListItemIcon /* sx={{color : "#08b1ff"}} */ className={`${classes.icon} ${classes["icon-talen"]}`}>
                           <LanguageIcon />

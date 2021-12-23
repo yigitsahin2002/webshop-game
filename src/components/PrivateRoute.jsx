@@ -16,7 +16,7 @@ export default function PrivateRoute({ children, role, ...rest }) {
                 canShowRoute ? (
                     children
                 ) : (
-                    <Redirect from={pathname} to="/login" />
+                    <Redirect from={pathname} to="/webshop-game/login" />
                 )
             }
         </Route>

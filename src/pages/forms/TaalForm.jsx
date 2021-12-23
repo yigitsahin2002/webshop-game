@@ -219,7 +219,7 @@ export default function TaalForm() {
             </Box>
         </form>
         <Box className={classes["cancel-container"]}>
-            <Link className={classes["cancel-button"]} to="/overview/talen" style={{textDecoration : "none"}}>
+            <Link className={classes["cancel-button"]} to="/webshop-game/overview/talen" style={{textDecoration : "none"}}>
                 <ListItemText color="#16abcc" primary="cancel"/>
                 <ListItemIcon>
                     <CancelIcon />

@@ -220,7 +220,7 @@ export default function CategorieForm() {
             </Box>
         </form>
         <Box className={classes["cancel-container"]}>
-            <Link className={classes["cancel-button"]} to="/overview/publishers" style={{textDecoration : "none"}}>
+            <Link className={classes["cancel-button"]} to="/webshop-game/overview/publishers" style={{textDecoration : "none"}}>
                 <ListItemText color="#16abcc" primary="cancel"/>
                 <ListItemIcon>
                     <CancelIcon />

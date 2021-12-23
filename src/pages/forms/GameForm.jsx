@@ -441,7 +441,7 @@ export default function GameForm() {
                     }
         </form>
         <div className={classes["cancel-container"]}>
-          <Link to="/overview/games" style={{textDecoration : "none"}}>
+          <Link to="/webshop-game/overview/games" style={{textDecoration : "none"}}>
             <button className={classes["cancel-button"]}>
               <ListItemText color="#16abcc" primary="cancel"/>
               <ListItemIcon>

@@ -68,7 +68,7 @@ export default function Browse() {
       <nav aria-label="main mailbox folders">
         <List>
           <ListItem disablePadding>
-            <Link to="/overview/games" style={{color :"black", textDecoration: "none", width : "100%"}}>
+            <Link to="/webshop-game/overview/games" style={{color :"black", textDecoration: "none", width : "100%"}}>
                 <ListItemButton className={`${classes.button}`}>
                   <ListItemIcon className={`${classes.icon} ${classes["icon-game"]}`}>
                     <VideogameAssetIcon />
@@ -90,7 +90,7 @@ export default function Browse() {
           </ListItem>
           <Divider sx={{ width : '100%'}}/>
           <ListItem disablePadding >
-              <Link data-cy="publisher_overview_btn" to="/overview/publishers" style={{color :"black", textDecoration: "none", width : "100%"}}>
+              <Link data-cy="publisher_overview_btn" to="/webshop-game/overview/publishers" style={{color :"black", textDecoration: "none", width : "100%"}}>
                 <ListItemButton className={`${classes.button}`}>
                   <ListItemIcon className={`${classes.icon} ${classes["icon-publisher"]}`}>
                     <PersonIcon />
@@ -101,7 +101,7 @@ export default function Browse() {
           </ListItem>
           <Divider sx={{ width : '100%'}}/>
           <ListItem disablePadding>
-          <Link to="/overview/platforms" style={{color :"black", textDecoration: "none", width : "100%"}}>
+          <Link to="/webshop-game/overview/platforms" style={{color :"black", textDecoration: "none", width : "100%"}}>
                 <ListItemButton className={`${classes.button}`}>
                   <ListItemIcon className={`${classes.icon} ${classes["icon-platforms"]}`}>
                     <GamesIcon />
@@ -112,7 +112,7 @@ export default function Browse() {
           </ListItem>
           <Divider sx={{ width : '100%'}}/>
           <ListItem disablePadding>
-          <Link to="/overview/talen" style={{color :"black", textDecoration: "none", width : "100%"}}>
+          <Link to="/webshop-game/overview/talen" style={{color :"black", textDecoration: "none", width : "100%"}}>
                 <ListItemButton className={`${classes.button}`}>
                   <ListItemIcon className={`${classes.icon} ${classes["icon-talen"]}`}>
                     <LanguageIcon />

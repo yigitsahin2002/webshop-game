@@ -106,7 +106,7 @@ export default function CategorieList({editMode}) {
         <>
         {editMode && (
           <Box className={classes["button-container"]}>
-            <Link data-cy="add_categorie_empty_btn" className={classes["button"]} to="/overview/categorieen/add" style={{textDecoration : "none"}}>
+            <Link data-cy="add_categorie_empty_btn" className={classes["button"]} to="/webshop-game/overview/categorieen/add" style={{textDecoration : "none"}}>
               <ListItemText color="#16abcc" primary="Add categorie"/>
               <ListItemIcon>
                 <AddIcon />
@@ -123,7 +123,7 @@ export default function CategorieList({editMode}) {
       <>
         {editMode && (
           <Box className={classes["button-container"]}>
-            <Link className={classes["button"]} to="/overview/categorieen/add" style={{textDecoration : "none"}}>
+            <Link className={classes["button"]} to="/webshop-game/overview/categorieen/add" style={{textDecoration : "none"}}>
               <ListItemText color="#16abcc" primary="Add categorie"/>
               <ListItemIcon>
                   <AddIcon />

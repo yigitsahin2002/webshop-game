@@ -104,7 +104,7 @@ export default function PublisherList({editMode}) {
         <>
         {editMode && (
           <Box className={classes["button-container"]}>
-            <Link data-cy="add_publisher_empty_btn" className={classes["button"]} to="/overview/publishers/add" style={{textDecoration : "none"}}>
+            <Link data-cy="add_publisher_empty_btn" className={classes["button"]} to="/webshop-game/overview/publishers/add" style={{textDecoration : "none"}}>
               <ListItemText color="#16abcc" primary="Add publisher"/>
               <ListItemIcon>
                 <AddIcon />
@@ -121,7 +121,7 @@ export default function PublisherList({editMode}) {
       <>
       {editMode && (
         <Box className={classes["button-container"]}>
-          <Link data-cy="add_publisher_btn" className={classes["button"]} to="/overview/publishers/add" style={{textDecoration : "none"}}>
+          <Link data-cy="add_publisher_btn" className={classes["button"]} to="/webshop-game/overview/publishers/add" style={{textDecoration : "none"}}>
             <ListItemText color="#16abcc" primary="Add publisher"/>
             <ListItemIcon>
                 <AddIcon />
