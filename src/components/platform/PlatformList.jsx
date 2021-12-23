@@ -104,7 +104,7 @@ export default function PlatformList({editMode }) {
       <>
       {editMode && (
         <Box className={classes["button-container"]}>
-          <Link className={classes["button"]} to="/webshop-game/overview/platforms/add" style={{textDecoration : "none"}}>
+          <Link className={classes["button"]} to="/overview/platforms/add" style={{textDecoration : "none"}}>
             <ListItemText color="#16abcc" primary="Add platform"/>
             <ListItemIcon>
               <AddIcon />
@@ -121,7 +121,7 @@ export default function PlatformList({editMode }) {
     <>
     {editMode && (
       <Box className={classes["button-container"]}>
-        <Link className={classes["button"]} to="/webshop-game/overview/platforms/add" style={{textDecoration : "none"}}>
+        <Link className={classes["button"]} to="/overview/platforms/add" style={{textDecoration : "none"}}>
           <ListItemText color="#16abcc" primary="Add platform"/>
           <ListItemIcon>
               <AddIcon />

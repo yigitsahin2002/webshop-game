@@ -178,7 +178,7 @@ export default function NavHeader() {
                 </div>
                 <Collapse in={open} timeout="auto" unmountOnExit>
                   <List className={classes.listItem} component="div" disablePadding>
-                    <NavLink style={{textDecoration : "none"}} to="/webshop-game/browse">
+                    <NavLink style={{textDecoration : "none"}} to="/browse">
                       <ListItemButton className={classes.listButton} onClick={handleClick}>
                         <ListItemIcon>
                           <MenuBookIcon sx={{color : "#cccccc", marginLeft : "10px"}}/>
@@ -188,7 +188,7 @@ export default function NavHeader() {
                     </NavLink>
                   </List>
                   <List className={classes.listItem} component="div" disablePadding>
-                    <NavLink data-cy="overview_btn" style={{textDecoration : "none"}} to="/webshop-game/overview">
+                    <NavLink data-cy="overview_btn" style={{textDecoration : "none"}} to="/overview">
                       <ListItemButton className={classes.listButton} onClick={handleClick}>
                         <ListItemIcon>
                         {
@@ -203,7 +203,7 @@ export default function NavHeader() {
                     </NavLink>
                   </List>
                   <List className={classes.listItem} component="div" disablePadding>
-                    <NavLink style={{textDecoration : "none"}} to="/webshop-game/winkelmandje">
+                    <NavLink style={{textDecoration : "none"}} to="/winkelmandje">
                       <ListItemButton className={classes.listButton} onClick={handleClick}>
                         <ListItemIcon>
                           <ShoppingCartOutlinedIcon sx={{color : "#cccccc", marginLeft : "10px"}}/>
@@ -213,7 +213,7 @@ export default function NavHeader() {
                     </NavLink>
                   </List>
                   <List className={classes.listItem} component="div" disablePadding>
-                    <NavLink style={{textDecoration : "none"}} to="/webshop-game/bestellingen">
+                    <NavLink style={{textDecoration : "none"}} to="/bestellingen">
                       <ListItemButton className={classes.listButton} onClick={handleClick}>
                         <ListItemIcon>
                           <ReceiptLongOutlinedIcon sx={{color : "#cccccc", marginLeft : "10px"}}/>
@@ -223,7 +223,7 @@ export default function NavHeader() {
                     </NavLink>
                   </List>
                   <List className={classes.listItem} component="div" disablePadding>
-                    <NavLink style={{textDecoration : "none"}} to="/webshop-game/user/info">
+                    <NavLink style={{textDecoration : "none"}} to="/user/info">
                       <ListItemButton className={classes.listButton} onClick={handleClick}>
                         <ListItemIcon>
                           <Box sx={{color : "#cccccc", marginLeft : "8px"}}>
@@ -247,7 +247,7 @@ export default function NavHeader() {
                     ) : (
                       <>
                         <List className={`${classes.listItem} ${classes.auth}`} component="div" disablePadding>
-                          <NavLink style={{textDecoration : "none"}} to="/webshop-game/login">
+                          <NavLink style={{textDecoration : "none"}} to="/login">
                             <ListItemButton className={classes.listButton} onClick={handleLogoutMobile}>
                               <ListItemIcon>
                                 <LoginIcon sx={{color : "#cccccc", marginLeft : "10px"}}/>
@@ -257,7 +257,7 @@ export default function NavHeader() {
                           </NavLink>
                         </List>
                         <List className={`${classes.listItem} ${classes.auth}`} component="div" disablePadding>
-                          <NavLink style={{textDecoration : "none"}} to="/webshop-game/register">
+                          <NavLink style={{textDecoration : "none"}} to="/register">
                             <ListItemButton className={classes.listButton} onClick={handleLogoutMobile}>
                               <ListItemIcon>
                                 <AppRegistrationIcon sx={{color : "#cccccc", marginLeft : "10px"}}/>

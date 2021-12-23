@@ -316,7 +316,7 @@ export default function CategorieForm() {
             </div>
         </form>
             <div className={classes["cancel-container"]}>
-                <Link to="/webshop-game/home" style={{textDecoration : "none"}}>
+                <Link to="/home" style={{textDecoration : "none"}}>
                 <button className={classes["cancel-button"]}>
                     <ListItemText color="#16abcc" primary="cancel"/>
                     <ListItemIcon>

@@ -113,7 +113,7 @@ export default function GameList({editMode}) {
         <>
         {editMode && (
           <div className="addWrap">
-            <Link to="/webshop-game/overview/games/add" style={{ color : "#16abcc", textDecoration: "none" }}>
+            <Link to="/overview/games/add" style={{ color : "#16abcc", textDecoration: "none" }}>
             <ListItemButton className={`${classes.button}`} style={{border : "1px solid #e1e4e6"}}>
                 <ListItemText sx={{backgroundColor: "red", color : "#16abcc"}} primary="Add game"/>
                   <ListItemIcon>
@@ -131,7 +131,7 @@ export default function GameList({editMode}) {
       <>
         {editMode && (
           <div className="addWrap">
-            <Link to="/webshop-game/overview/games/add" style={{textDecoration: "none", width : "100%"}}>
+            <Link to="/overview/games/add" style={{textDecoration: "none", width : "100%"}}>
               <ListItemButton className={classes.button} style={{border : "1px solid #e1e4e6"}}>
                   <ListItemText sx={{marginLeft : "5px" ,color : "#16abcc"}} primary="Add game"/>
                     <ListItemIcon>

@@ -97,7 +97,7 @@ export default function Login() {
         const success = await login(data.email, data.password);
 
         if (success) {
-          history.replace("/webshop-game");
+          history.replace("/");
         }
 
       } catch (error) {

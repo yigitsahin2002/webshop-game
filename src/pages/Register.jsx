@@ -119,7 +119,7 @@ export default function Login() {
           });
 
           if (succes) {
-              history.replace('/webshop-game');
+              history.replace('/');
           }
 
       } catch (error) {

@@ -104,7 +104,7 @@ export default function TaalList({editMode}) {
         <>
         {editMode && (
           <Box className={classes["button-container"]}>
-            <Link className={classes["button"]} to="/webshop-game/overview/talen/add" style={{textDecoration : "none"}}>
+            <Link className={classes["button"]} to="/overview/talen/add" style={{textDecoration : "none"}}>
               <ListItemText color="#16abcc" primary="Add taal"/>
               <ListItemIcon>
                 <AddIcon />
@@ -121,7 +121,7 @@ export default function TaalList({editMode}) {
       <>
       {editMode && (
         <Box className={classes["button-container"]}>
-          <Link className={classes["button"]} to="/webshop-game/overview/talen/add" style={{textDecoration : "none"}}>
+          <Link className={classes["button"]} to="/overview/talen/add" style={{textDecoration : "none"}}>
             <ListItemText color="#16abcc" primary="Add taal"/>
             <ListItemIcon>
                 <AddIcon />

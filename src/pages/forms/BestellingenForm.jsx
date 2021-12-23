@@ -272,7 +272,7 @@ export default function BestellingenForm() {
         </form>
         <div className={classes["cancel-container"]}>
             <button className={classes["cancel-button"]}>
-              <Link className={classes.cancelLink} to="/webshop-game/bestellingen">
+              <Link className={classes.cancelLink} to="/bestellingen">
                   <ListItemText color="#16abcc" primary="cancel"/>
                   <ListItemIcon>
                       <CancelIcon />
