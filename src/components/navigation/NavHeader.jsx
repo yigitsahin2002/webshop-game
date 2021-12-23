@@ -253,6 +253,9 @@ export default function NavHeader() {
                       </ListItemButton>
                     </NavLink>
                   </List>
+                  {
+                    isAuthed? (
+                      <>
                   <List className={classes.listItem} component="div" disablePadding>
                     <NavLink style={{textDecoration : "none"}} to="/user/info">
                       <ListItemButton className={classes.listButton} onClick={handleClick}>
@@ -265,8 +268,6 @@ export default function NavHeader() {
                       </ListItemButton>
                     </NavLink>
                   </List>
-                  {
-                    isAuthed? (
                       <List className={`${classes.listItem} ${classes.auth}`} component="div" disablePadding>
                           <ListItemButton className={classes.listButton} onClick={handleLogoutMobile}>
                             <ListItemIcon>
@@ -275,6 +276,7 @@ export default function NavHeader() {
                             <ListItemText sx={{color : "#cccccc"}} primary="Sign out" />
                           </ListItemButton>
                     </List>
+                    </>
                     ) : (
                       <>
                         <List className={`${classes.listItem} ${classes.auth}`} component="div" disablePadding>
