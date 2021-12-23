@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/webshop-game-front-end-yigitsahin2002/static/css/main.5ff499dd.chunk.css",
-    "main.js": "/webshop-game-front-end-yigitsahin2002/static/js/main.7a40168c.chunk.js",
-    "main.js.map": "/webshop-game-front-end-yigitsahin2002/static/js/main.7a40168c.chunk.js.map",
-    "runtime-main.js": "/webshop-game-front-end-yigitsahin2002/static/js/runtime-main.25412d6b.js",
-    "runtime-main.js.map": "/webshop-game-front-end-yigitsahin2002/static/js/runtime-main.25412d6b.js.map",
-    "static/js/2.200db40c.chunk.js": "/webshop-game-front-end-yigitsahin2002/static/js/2.200db40c.chunk.js",
-    "static/js/2.200db40c.chunk.js.map": "/webshop-game-front-end-yigitsahin2002/static/js/2.200db40c.chunk.js.map",
-    "static/js/3.0e46c7fa.chunk.js": "/webshop-game-front-end-yigitsahin2002/static/js/3.0e46c7fa.chunk.js",
-    "static/js/3.0e46c7fa.chunk.js.map": "/webshop-game-front-end-yigitsahin2002/static/js/3.0e46c7fa.chunk.js.map",
-    "index.html": "/webshop-game-front-end-yigitsahin2002/index.html",
-    "static/css/main.5ff499dd.chunk.css.map": "/webshop-game-front-end-yigitsahin2002/static/css/main.5ff499dd.chunk.css.map",
-    "static/js/2.200db40c.chunk.js.LICENSE.txt": "/webshop-game-front-end-yigitsahin2002/static/js/2.200db40c.chunk.js.LICENSE.txt"
+    "main.css": "/webshop-game/static/css/main.5ff499dd.chunk.css",
+    "main.js": "/webshop-game/static/js/main.aa5bea67.chunk.js",
+    "main.js.map": "/webshop-game/static/js/main.aa5bea67.chunk.js.map",
+    "runtime-main.js": "/webshop-game/static/js/runtime-main.d20756a6.js",
+    "runtime-main.js.map": "/webshop-game/static/js/runtime-main.d20756a6.js.map",
+    "static/js/2.200db40c.chunk.js": "/webshop-game/static/js/2.200db40c.chunk.js",
+    "static/js/2.200db40c.chunk.js.map": "/webshop-game/static/js/2.200db40c.chunk.js.map",
+    "static/js/3.0e46c7fa.chunk.js": "/webshop-game/static/js/3.0e46c7fa.chunk.js",
+    "static/js/3.0e46c7fa.chunk.js.map": "/webshop-game/static/js/3.0e46c7fa.chunk.js.map",
+    "index.html": "/webshop-game/index.html",
+    "static/css/main.5ff499dd.chunk.css.map": "/webshop-game/static/css/main.5ff499dd.chunk.css.map",
+    "static/js/2.200db40c.chunk.js.LICENSE.txt": "/webshop-game/static/js/2.200db40c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.25412d6b.js",
+    "static/js/runtime-main.d20756a6.js",
     "static/js/2.200db40c.chunk.js",
     "static/css/main.5ff499dd.chunk.css",
-    "static/js/main.7a40168c.chunk.js"
+    "static/js/main.aa5bea67.chunk.js"
   ]
 }
