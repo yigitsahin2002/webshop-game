@@ -158,7 +158,7 @@ export default function NavHeader() {
 
     return (
     <>
-    <div style={{backgroundColor : "#212121"}} className={classes.desktopNavDiv}>
+    <div className={classes.desktopNavDiv}>
         <nav className={classes.dekstopNav}>
           <div onClick={handleGoHome}><HomeRoundedIcon sx={{color : "#cccccc", alignSelf : "center", padding: "0", margin : "0"}} /></div>
           <ul className="nav-ul">

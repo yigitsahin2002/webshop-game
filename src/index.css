@@ -418,7 +418,7 @@ font-weight: bold;
   display: flex;
   align-items: flex-end;
 }
-
+/* 
 .nav {
   display: flex;
   max-width: 1000px;
@@ -426,7 +426,7 @@ font-weight: bold;
   margin: 0 auto;
   padding: 0 5px;
   flex: 0 auto;
-}
+} */
 
 .main-buttons {
   max-width: 1000px;
@@ -474,14 +474,14 @@ font-weight: bold;
   color : orange;
 }
 
-.nav div:first-of-type {
+/* .nav div:first-of-type {
   color: rgb(60,60,60);
   display: flex;
   align-items: center;
   justify-content: center;
   margin: auto 0;
   cursor: pointer;
-}
+} */
 
 .home-img {
   max-width: 1000px;
