@@ -25,7 +25,7 @@ const theme = createTheme();
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/webshop-game'>
         <AuthProvider>
           <UsersProvider>
             <CategorieProvider>
