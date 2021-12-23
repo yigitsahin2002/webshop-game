@@ -84,7 +84,7 @@ function App() {
         <Redirect to="/webshop-game" />
       </Route>
 
-      <PrivateRoute exact path="/winkelmandje">
+      <PrivateRoute exact path="/webshop-game/winkelmandje">
         <Cart/>
       </PrivateRoute>
 
@@ -92,86 +92,86 @@ function App() {
             <Home />
       </PrivateRoute>
 
-      <PrivateRoute exact path="/user/info">
+      <PrivateRoute exact path="/webshop-game/user/info">
             <UserInfoForm />
       </PrivateRoute>
 
-      <PrivateRoute exact path="/bestellingen">
+      <PrivateRoute exact path="/webshop-game/bestellingen">
             <Bestellingen />
       </PrivateRoute>
 
-      <PrivateRoute exact path="/bestellingen/edit/:id">
+      <PrivateRoute exact path="/webshop-game/bestellingen/edit/:id">
             <BestellingenForm />
       </PrivateRoute>
 
-      <PrivateRoute path="/browse" exact>
+      <PrivateRoute path="/webshop-game/browse" exact>
             <Browse />
       </PrivateRoute>
-      <PrivateRoute path="/browse/games" exact>
+      <PrivateRoute path="/webshop-game/browse/games" exact>
         <Games editMode={false}/>
       </PrivateRoute>
-      <PrivateRoute path="/browse/games/:id" exact>
+      <PrivateRoute path="/webshop-game/browse/games/:id" exact>
         <GameInfo games={games}/>
       </PrivateRoute>
-      <PrivateRoute path="/browse/categorieen" exact>
+      <PrivateRoute path="/webshop-game/browse/categorieen" exact>
         <Categorieen editMode={false}/>
       </PrivateRoute>
-      <PrivateRoute path="/browse/platforms" exact>
+      <PrivateRoute path="/webshop-game/browse/platforms" exact>
         <Platforms editMode={false}/>
       </PrivateRoute>
-      <PrivateRoute path="/browse/publishers" exact>
+      <PrivateRoute path="/webshop-game/browse/publishers" exact>
         <Publishers editMode={false}/>
       </PrivateRoute>
-      <PrivateRoute path="/browse/talen" exact>
+      <PrivateRoute path="/webshop-game/browse/talen" exact>
         <Talen editMode={false}/>
       </PrivateRoute>
 
-      <PrivateRoute path="/overview" role="admin" exact>
+      <PrivateRoute path="/webshop-game/overview" role="admin" exact>
         <Overview />
       </PrivateRoute>
-      <PrivateRoute path="/overview/games" role="admin" exact>
+      <PrivateRoute path="/webshop-game/overview/games" role="admin" exact>
         <Games editMode={true}/>
       </PrivateRoute>
-      <PrivateRoute path="/overview/categorieen" role="admin" exact>
+      <PrivateRoute path="/webshop-game/overview/categorieen" role="admin" exact>
         <Categorieen editMode={true}/>
       </PrivateRoute>
-      <PrivateRoute path="/overview/publishers" role="admin" exact>
+      <PrivateRoute path="/webshop-game/overview/publishers" role="admin" exact>
         <Publishers editMode={true}/>
       </PrivateRoute>
-      <PrivateRoute path="/overview/platforms" role="admin" exact>
+      <PrivateRoute path="/webshop-game/overview/platforms" role="admin" exact>
         <Platforms editMode={true}/>
       </PrivateRoute>
-      <PrivateRoute path="/overview/talen" role="admin" exact>
+      <PrivateRoute path="/webshop-game/overview/talen" role="admin" exact>
         <Talen editMode={true}/>
       </PrivateRoute>
-      <PrivateRoute path="/overview/games/edit/:id" role="admin" exact>
+      <PrivateRoute path="/webshop-game/overview/games/edit/:id" role="admin" exact>
         <GameForm />
       </PrivateRoute>
-      <PrivateRoute path="/overview/games/add" role="admin" exact>
+      <PrivateRoute path="/webshop-game/overview/games/add" role="admin" exact>
         <GameForm />
       </PrivateRoute>
-      <PrivateRoute path="/overview/categorieen/edit/:id" role="admin" exact>
+      <PrivateRoute path="/webshop-game/overview/categorieen/edit/:id" role="admin" exact>
         <CategorieForm />
       </PrivateRoute>
-      <PrivateRoute path="/overview/categorieen/add" role="admin" exact>
+      <PrivateRoute path="/webshop-game/overview/categorieen/add" role="admin" exact>
         <CategorieForm />
       </PrivateRoute>
-      <PrivateRoute path="/overview/platforms/edit/:id" role="admin" exact>
+      <PrivateRoute path="/webshop-game/overview/platforms/edit/:id" role="admin" exact>
         <PlatformForm />
       </PrivateRoute>
-      <PrivateRoute path="/overview/platforms/add" role="admin" exact>
+      <PrivateRoute path="/webshop-game/overview/platforms/add" role="admin" exact>
         <PlatformForm />
       </PrivateRoute>
-      <PrivateRoute path="/overview/publishers/edit/:id" role="admin" exact>
+      <PrivateRoute path="/webshop-game/overview/publishers/edit/:id" role="admin" exact>
         <PublisherForm />
       </PrivateRoute>
-      <PrivateRoute path="/overview/publishers/add" role="admin" exact>
+      <PrivateRoute path="/webshop-game/overview/publishers/add" role="admin" exact>
         <PublisherForm />
       </PrivateRoute>
-      <PrivateRoute path="/overview/talen/edit/:id" role="admin" exact>
+      <PrivateRoute path="/webshop-game/overview/talen/edit/:id" role="admin" exact>
         <TaalForm />
       </PrivateRoute>
-      <PrivateRoute path="/overview/talen/add" role="admin" exact>
+      <PrivateRoute path="/webshop-game/overview/talen/add" role="admin" exact>
         <TaalForm />
       </PrivateRoute>
       <Route path="*">
