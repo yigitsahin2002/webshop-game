@@ -6,7 +6,7 @@ export default function Home() {
                 <h3 style={{textAlign : "center", color : "snow"}}>Please refresh the page if the following occur:</h3>
                 <h3 style={{textAlign : "center", color : "snow", borderTop : "1px solid snow", paddingTop : "5px"}}>If colors or placement of items seems off/wrong </h3>
                 <h3 style={{textAlign : "center", color : "snow", borderBottom : "1px solid snow", paddingBottom : "5px"}}>If items aren't appearing or says they are empty</h3>
-                <h3 style={{textAlign : "center", color : "snow", borderBottom : "1px solid snow", paddingBottom : "5px", marginTop : "10px"}}>If refreshing doesn't fix the problems, try clicking on an item an going back to it</h3>
+                <h3 style={{textAlign : "center", color : "snow", borderBottom : "1px solid snow", paddingBottom : "5px", marginTop : "10px"}}>If refreshing doesn't fix the problems, try clicking on an another item and going back to it</h3>
                 <h3 style={{textAlign : "center", color : "snow",}}>Scroll up to see navigation</h3>
             </div>
            <div className="home-img">
