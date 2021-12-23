@@ -378,7 +378,7 @@ font-weight: bold;
 
 @media screen and (min-width : 900px) {
   .nav-div {
-    display: unset;
+    display: inline;
     padding: 0;
     opacity: 100%;
     background-color: #212121;

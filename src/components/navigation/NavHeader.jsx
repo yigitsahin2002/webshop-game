@@ -93,6 +93,20 @@ const useStyles = makeStyles(({
       color : "#cccccc",
       padding : "0",
       margin : "0"
+    },
+    desktopNavDiv : {
+      display: "none",
+      '@media (min-width: 900px)': {
+        display : "inline",
+        padding: "0",
+        opacity: "100%",
+        backgroundColor: "#212121",
+        position: "sticky",
+        width: "100%",
+        top: "0",
+        zIndex: "2",
+        boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
+      },
     }
   }));
 
@@ -127,7 +141,7 @@ export default function NavHeader() {
 
     return (
     <>
-    <div className="nav-div">
+    <div className={classes.desktopNavDiv}>
         <nav className="nav">
           <div onClick={handleGoHome}><HomeRoundedIcon sx={{color : "#cccccc", alignSelf : "center", padding: "0", margin : "0"}} /></div>
           <ul className="nav-ul">
