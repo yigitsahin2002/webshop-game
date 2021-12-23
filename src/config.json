@@ -1,4 +1,4 @@
 {
-    "base_url": "http://localhost:9000/api/",
+    "base_url": "https://yigitsa-webshopgame-vc.herokuapp.com/api/",
     "token_key" : "auth_token"
 }
