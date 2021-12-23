@@ -390,7 +390,7 @@ font-weight: bold;
 
 @media screen and (min-width : 900px) {
   .nav-div {
-    display: block;
+    display: unset;
   }
 }
 
