@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/webshop-game-front-end-yigitsahin2002/static/css/main.5ff499dd.chunk.css",
+    "main.js": "/webshop-game-front-end-yigitsahin2002/static/js/main.85113428.chunk.js",
+    "main.js.map": "/webshop-game-front-end-yigitsahin2002/static/js/main.85113428.chunk.js.map",
+    "runtime-main.js": "/webshop-game-front-end-yigitsahin2002/static/js/runtime-main.25412d6b.js",
+    "runtime-main.js.map": "/webshop-game-front-end-yigitsahin2002/static/js/runtime-main.25412d6b.js.map",
+    "static/js/2.200db40c.chunk.js": "/webshop-game-front-end-yigitsahin2002/static/js/2.200db40c.chunk.js",
+    "static/js/2.200db40c.chunk.js.map": "/webshop-game-front-end-yigitsahin2002/static/js/2.200db40c.chunk.js.map",
+    "static/js/3.0e46c7fa.chunk.js": "/webshop-game-front-end-yigitsahin2002/static/js/3.0e46c7fa.chunk.js",
+    "static/js/3.0e46c7fa.chunk.js.map": "/webshop-game-front-end-yigitsahin2002/static/js/3.0e46c7fa.chunk.js.map",
+    "index.html": "/webshop-game-front-end-yigitsahin2002/index.html",
+    "static/css/main.5ff499dd.chunk.css.map": "/webshop-game-front-end-yigitsahin2002/static/css/main.5ff499dd.chunk.css.map",
+    "static/js/2.200db40c.chunk.js.LICENSE.txt": "/webshop-game-front-end-yigitsahin2002/static/js/2.200db40c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.25412d6b.js",
+    "static/js/2.200db40c.chunk.js",
+    "static/css/main.5ff499dd.chunk.css",
+    "static/js/main.85113428.chunk.js"
+  ]
+}
