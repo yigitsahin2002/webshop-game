@@ -2,7 +2,7 @@
   "name": "webshop_game_front_end",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yigitsahin2002.github.io/webshop-game-front-end-yigitsahin2002",
+  "homepage": "https://yigitsahin2002.github.io/webshop-game",
   "dependencies": {
     "@emotion/react": "^11.6.0",
     "@emotion/styled": "^11.6.0",
