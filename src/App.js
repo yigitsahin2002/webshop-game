@@ -80,14 +80,14 @@ function App() {
       </Route>
 
       <Route exact path="/">
-        <Redirect to="" />
+        <Redirect to="/home" />
       </Route>
 
       <PrivateRoute exact path="/winkelmandje">
         <Cart/>
       </PrivateRoute>
 
-      <PrivateRoute exact path="">
+      <PrivateRoute exact path="/home">
             <Home />
       </PrivateRoute>
 
