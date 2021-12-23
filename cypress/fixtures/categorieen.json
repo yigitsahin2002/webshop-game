@@ -1,0 +1,11 @@
+{
+    "data" : [
+        {
+            "categorieID" : "d6ebff52-d811-4f25-99a5-67a0b2463b53", 
+            "naam" : "a"
+        }
+    ],
+    "count" : 1,
+    "limit" : 50,
+    "offset" : 0
+}
