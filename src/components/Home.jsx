@@ -9,7 +9,7 @@ export default function Home() {
                 <h3 style={{textAlign : "center", color : "snow",}}>Scroll up to see navigation</h3>
             </div>
            <div className="home-img">
-               <img src="/backgroundHome.jpg" alt="home" />
+               <img src="webshop-game/backgroundHome.jpg" alt="home" />
             </div>
         </>
     )
